@@ -1,0 +1,67 @@
+.login-background{
+    background-color: rgb(235, 175, 227);
+    height: 100vh;
+   
+    
+}
+
+
+
+
+.login-main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin:30px auto 0px;
+    width: 37%;
+    height: 500px;
+    background-color: white;
+
+}
+
+.login-content{
+    width: 86%;
+    margin: 0px auto 0px;
+}
+
+.login-content h1{
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.login-main form{
+    display: flex;
+    flex-direction: column;
+    width:100% ;
+}
+
+.login-content input{
+    margin-top: 17px;
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border:1px solid rgb(224, 220, 220);
+}
+
+.login-content input:focus{
+    background-color: white;
+    border:1px solid rgb(139, 136, 136);
+}
+
+
+.login-content button{
+    margin-top: 14px;
+    width: 90%;
+    height:35px ;
+    background-color: rgb(244, 85, 85);
+    color: white;
+    border:1px solid rgb(63, 63, 63);
+}
+
+.signup-link{
+    margin-top: 10px;
+}
+
+.signup-link p{
+    margin-bottom: 15px;
+}

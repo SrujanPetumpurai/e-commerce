@@ -1,0 +1,53 @@
+.Shop{
+    display: flex;
+    height: 100%;
+    background:linear-gradient(180deg,#fde1ff,#e1ffea22 60%)
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 100px;
+    margin-top:170px;
+}
+
+.intro h1{
+    display: flex;
+    flex-direction: column;
+    font-size: 68px;
+}
+
+
+
+span img{
+    height: 60px;
+    width: 60px;
+    position:relative;
+    top:10px;
+}
+
+.intro button{
+    background-color: red;
+    color: white;
+border:none;
+width: 170px;
+height: 35px;
+border-radius: 20px;
+margin-top:20px;
+}
+
+.intro button img{
+    background-color: red;
+   
+}
+
+.person{
+    margin-left:250px;
+}
+
+.person img{
+    height: 700px;
+
+}
+

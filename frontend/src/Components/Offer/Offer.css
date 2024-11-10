@@ -1,0 +1,38 @@
+.offer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 425px;
+    margin:200px auto 0px;
+    background:linear-gradient(180deg,#fde1ff,#e1ffea22 60%)
+
+}
+
+.offer-info{
+    margin-top: 85px;
+    margin-left: 100px;
+
+}
+
+.offer-info h1{
+    font-size: 68px;
+}
+
+#best-sellers{
+    display: block;
+    margin-top: 10px;
+}
+
+.offer-info button{
+    display: block;
+    border-radius:30px ;
+    margin-top: 15px;
+    height: 45px;
+    width: 50%;
+    font-size: 18px;
+}
+
+#exclusive{
+    display: block;
+}
+

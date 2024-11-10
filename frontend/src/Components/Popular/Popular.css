@@ -1,0 +1,53 @@
+.popular-main{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#popular-heading {
+    position: relative; /* Necessary for the ::after pseudo-element to be positioned correctly */
+    display: inline-block; /* Allows the heading to be sized by its content */
+    margin-bottom: 40px; /* Adds space between the heading and the products */
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+#popular-heading::after {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Adjusts the vertical position of the border */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* Sets the desired length of the border */
+    border-bottom: 4px solid black;
+}
+
+.products{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+  
+}
+
+.products img{
+    height: 350px;   
+    width: 320px;
+}
+
+.product p{
+    width: 300px;
+    text-align: start;
+}
+
+.cost{
+    text-align: start;
+}
+
+.cost span:nth-child(1){
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.cost span:nth-child(2){
+    text-decoration: line-through;
+    opacity: calc(0.4);
+}

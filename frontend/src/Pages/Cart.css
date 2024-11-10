@@ -1,0 +1,32 @@
+.horizontal-list {
+    list-style-type: none; /* Removes the dots */
+    display: flex; /* Makes the items horizontal */
+    padding: 0;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 50px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+    margin-right: 140px;
+}
+
+.horizontal-list li {
+    margin-right: 50px; /* Adds space between the items */
+}
+
+.horizontal-list li:nth-child(2){
+    margin-right: 380px;
+}
+.horizontal-list li:nth-child(4){
+    margin-left: 80px;
+}
+.horizontal-list li:nth-child(5){
+    margin-left: 60px;
+}
+.horizontal-list li:nth-child(6){
+    margin-left: 90px;
+}
+
+.cart-main{
+    margin-bottom: 300px;
+}
