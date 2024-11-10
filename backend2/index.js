@@ -3,8 +3,9 @@ const app = express();
 const cors = require('cors')
 const mongoose = require('mongoose')
 const router = require('./routes/user.js')
+//const MONGO_URI = 'mongodb://mongo:27017/e-commerceTwo';
 
-mongoose.connect('mongodb://127.0.0.1:27017/e-commerceTwo')
+mongoose.connect('mongodb://mongo:27017/e-commerceTwo')
 .then(()=>{
     console.log("MONGOGO CONNECTION OPEN")
 })
